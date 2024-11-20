@@ -46,35 +46,4 @@
         <exec.mainClass>com.profeco.mavenproject.Profeco_SD</exec.mainClass>
     </properties>
     
-     <!-- Configuración del build para usar Spring Boot y Java 17 -->
-    <build>
-        <plugins>
-            <!-- Plugin de Spring Boot -->
-            
-
-            <!-- Plugin para compilar con Java 17 -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
-    <!-- Dependencias de Spring Cloud -->
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 </project>

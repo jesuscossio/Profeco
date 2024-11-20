@@ -1,0 +1,16 @@
+com\profeco\precios\modelo\Precio.class
+com\profeco\productos\modelo\Producto.class
+com\profeco\notificaciones\controlador\WebSocketControlador.class
+com\profeco\productos\controlador\ProductoControlador.class
+com\profeco\precios\PreciosApplication.class
+com\profeco\gateway\ApiGatewayApplication.class
+com\profeco\reportes\ReporteApplication.class
+com\profeco\notificaciones\NotificacionesApplication.class
+com\profeco\notificaciones\modelo\Notificacion.class
+com\profeco\reportes\controlador\ReporteControlador.class
+com\profeco\notificaciones\controlador\NotificacionControlador.class
+com\profeco\precios\Controlador\PrecioControlador.class
+com\profeco\mavenproject\Profeco_SD.class
+com\profeco\reportes\model\Reporte.class
+com\profeco\notificaciones\config\WebSocketsConfig.class
+com\profeco\productos\ProductosApplication.class
