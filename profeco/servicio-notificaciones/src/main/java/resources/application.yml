@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: servicio-notificaciones
+
+websocket:
+  allowed-origins: "*"
+  broker:
+    prefix: /topic
+    application-destination-prefix: /app
+
+logging:
+  level:
+    org.springframework.messaging: DEBUG

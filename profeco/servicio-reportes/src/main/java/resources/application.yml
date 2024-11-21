@@ -1,0 +1,21 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: servicio-reportes
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/reportes_db
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG

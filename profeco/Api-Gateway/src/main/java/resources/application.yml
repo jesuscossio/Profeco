@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: servicio-productos
+          uri: http://localhost:8081
+          predicates:
+            - Path=/productos/**
+        - id: servicio-precios
+          uri: http://localhost:8082
+          predicates:
+            - Path=/precios/**
+        - id: servicio-notificaciones
+          uri: http://localhost:8083
+          predicates:
+            - Path=/notificaciones/**
+        - id: servicio-reportes
+          uri: http://localhost:8084
+          predicates:
+            - Path=/reportes/**
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
