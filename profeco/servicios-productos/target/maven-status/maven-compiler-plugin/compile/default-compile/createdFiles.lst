@@ -1,0 +1,5 @@
+com\profeco\productos\repositorio\ProductoRepositorio.class
+com\profeco\productos\modelo\Producto.class
+com\profeco\productos\servicio\ProductoServicio.class
+com\profeco\productos\controlador\ProductoControlador.class
+com\profeco\productos\ProductosApplication.class

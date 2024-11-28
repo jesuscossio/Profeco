@@ -1,0 +1,7 @@
+module-info.class
+com\profeco\interfaz\entryPoint.class
+com\profeco\interfaz\modelo\Producto.class
+com\profeco\interfaz\controlador\ProductoController.class
+com\profeco\interfaz\ProfecoGui.class
+com\profeco\interfaz\servicio\ProductoServicio$1.class
+com\profeco\interfaz\servicio\ProductoServicio.class

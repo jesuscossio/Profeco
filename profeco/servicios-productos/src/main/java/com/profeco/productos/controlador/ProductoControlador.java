@@ -22,10 +22,10 @@ public class ProductoControlador {
       // Simulación de base de datos
     private ArrayList<Producto> productos = new ArrayList<>();
     public ProductoControlador() {
-        // Datos iniciales de ejemplo
-        productos.add(new Producto(1L, "Manzanas", "Manzanas frescas y jugosas"));
-        productos.add(new Producto(2L, "Cereal", "Cereal integral con frutas secas"));
-        productos.add(new Producto(3L, "Leche", "Leche descremada de 1 litro"));
+//        // Datos iniciales de ejemplo
+//        productos.add(new Producto(1L, "Manzanas", "Manzanas frescas y jugosas"));
+//        productos.add(new Producto(2L, "Cereal", "Cereal integral con frutas secas"));
+//        productos.add(new Producto(3L, "Leche", "Leche descremada de 1 litro"));
     }
 
     @GetMapping

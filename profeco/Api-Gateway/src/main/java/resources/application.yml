@@ -2,6 +2,14 @@ server:
   port: 8080
 
 spring:
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/productos_db
+    username: root
+    password: tu_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  
   application:
     name: api-gateway
 
@@ -28,3 +36,8 @@ spring:
 logging:
   level:
     org.springframework.cloud.gateway: DEBUG
+
+ jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

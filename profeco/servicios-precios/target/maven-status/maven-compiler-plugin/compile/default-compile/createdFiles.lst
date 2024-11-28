@@ -1,0 +1,3 @@
+com\profeco\precios\PreciosApplication.class
+com\profeco\precios\Controlador\PrecioControlador.class
+com\profeco\precios\modelo\Precio.class
